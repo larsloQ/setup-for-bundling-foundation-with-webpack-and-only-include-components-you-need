@@ -3,8 +3,9 @@
 A wordpress plugin providing a gutenberg block which uses a native redux store.
 
 ## Description
-the original bundling process from foundation-for-sites was a bit slow on my old machine.
+the original bundling process from foundation-for-sites (https://github.com/foundation/foundation-sites/tree/v6.5.3) (Version 6.5.3) was a bit slow on my old machine.
 So I switched to a webpack based building which also allowed me to write ES6-JS. 
+The JS bundling is much quicker than with the original gulp base process.
 
 This demonstrates also how to only use a minimal subset of *Foundation* JS and SCSS.
 And watch the rather small footprint (for a CSS-Framework) of style.css and script.js
